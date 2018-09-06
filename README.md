@@ -1,17 +1,19 @@
-# react-native-row
+# react-native-row-next
 
 A wrapper around the react-native `<View/>` component enabling concise assignment of flexbox layout properties. 
 
 The idea is to keep JSX as clean as possible, while removing the need to manage stylesheet declarations for common positioning needs. 
 
+This is an update forked from react-native-row
+
 ### Installation
 
-    npm install react-native-row
+    npm install react-native-row-next
 
     
 ### Basic Usage
 
-Use react-native-row as little or as much as you want. For instance, you could just use the `<Row/>` to replace 
+Use react-native-row-next as little or as much as you want. For instance, you could just use the `<Row/>` to replace 
 
    
         
@@ -21,7 +23,7 @@ Use react-native-row as little or as much as you want. For instance, you could j
     
 with:
 
-    import Row from 'react-native-row'    
+    import Row from 'react-native-row-next'    
         
     <Row/>
         
@@ -32,7 +34,7 @@ But if you are going to the trouble of installing this module consider these oth
 
 ### Dial
 
-One of the most DRY features of react-native-row is the `dial` prop which allows you to replace
+One of the most DRY features of react-native-row-next is the `dial` prop which allows you to replace
 
 
     <View style={{flex: 1, flexDirection:'row', justifyContent:'center' alignItems:'center'}}>   
@@ -60,7 +62,7 @@ The child components of `Row` are positioned according to the position of the `d
 
 Optionally import `View` from this package instead of from `react-native` and all of your `<View/>` components can use dial as well.
 
-    import Row, { View } from 'react-native-row' 
+    import Row, { View } from 'react-native-row-next' 
         
     <View dial={5} flex>
       <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
@@ -72,7 +74,7 @@ Optionally import `View` from this package instead of from `react-native` and al
 
 Use `View` without replacing the core RN `View` like so
 
-    import Row, { View as DialView } from 'react-native-row'
+    import Row, { View as DialView } from 'react-native-row-next'
      
     <DialView dial={5} flex>
         <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />

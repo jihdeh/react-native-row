@@ -1,6 +1,6 @@
 {
-  "name": "react-native-row",
-  "version": "1.1.1",
+  "name": "react-native-row-next",
+  "version": "1.1.2",
   "description": "A wrapper around the react-native View component enabling concise assignment of flexbox properties",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ssomnoremac@github.com/hyrwork/react-native-row.git"
+    "url": "git@github.com:jihdeh/react-native-row-next.git"
   },
   "keywords": [
     "layout",
@@ -17,12 +17,12 @@
     "flex",
     "row"
   ],
-  "author": "Cameron Moss",
+  "author": "Babajide Fowotade",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyrwork/react-native-row/issues"
+    "url": "https://github.com/jihdeh/react-native-row-next/issues"
   },
-  "homepage": "https://github.com/hyrwork/react-native-row#readme",
+  "homepage": "https://github.com/jihdeh/react-native-row-next#readme",
   "dependencies": {
   }
 }

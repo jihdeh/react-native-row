@@ -14,7 +14,7 @@ const Row = (props) => {
         padding,
         style,
         reverse,
-        ...otherProps,
+        ...otherProps
     } = props;
 
     const _dial = dial > 0 && dial < 10 ? dial : 0;
